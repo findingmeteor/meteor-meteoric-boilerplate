@@ -5,11 +5,14 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 meteoric:ionic
 meteoric:autoform-ionic
 meteoric:ionicons-sass
 meteoric:ionic-sass
-fourseven:scss@1.0.0
 iron:router
+aldeed:autoform
+aldeed:collection2
+aldeed:simple-schema
+ongoworks:security
+dburles:collection-helpers
+fourseven:scss

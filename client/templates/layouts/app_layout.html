@@ -1,7 +1,9 @@
 <template name="app_layout">
 
   {{#ionBody}}
-    {{> ionNavBar }}
+    <!-- It used to work without alignTitle {{> ionNavBar }}. Currently, alignTitle is required -->
+    <!-- https://github.com/meteoric/meteor-ionic/pull/44 -->
+    {{> ionNavBar alignTitle="center"}}
 
     {{#ionNavView}}
       {{> yield}}
